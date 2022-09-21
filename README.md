@@ -17,4 +17,8 @@ SELECT(https://github.com/NaviKishore/database-management-system/blob/main/DML%2
 
 ## Experiment 4
 WHERE(https://github.com/NaviKishore/database-management-system/blob/main/dml%20where.txt)
-Pattern Matching(
+Pattern Matching(https://github.com/NaviKishore/database-management-system/blob/main/dml%20pattern%20matching.txt)
+
+## Experiment 5
+BETWEEN IN(
+Aggregate function(
