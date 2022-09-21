@@ -25,4 +25,9 @@ Aggregate function(https://github.com/NaviKishore/database-management-system/blo
 
 ## Experiment 6
 GROUP BY(https://github.com/NaviKishore/database-management-system/blob/main/GROUP%20BY%20command.txt)
-ORDER BY(
+ORDER BY(https://github.com/NaviKishore/database-management-system/blob/main/ORDER%20BY%20command.txt)
+
+## Experiment 7
+SUB QUERIES 1(
+SUB QUERIES 2(
+SUB QUERIES 3(
