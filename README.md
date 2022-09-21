@@ -4,4 +4,7 @@ Database management system -CSA0516
 ## Experiment 1
 CREATE(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20220920-WA0005.jpg)
 ALTER(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20220920-WA0007.jpg)
-DROP(
+DROP(https://github.com/NaviKishore/database-management-system/blob/main/DML%20drop.txt)
+
+## Experiment 2
+PRIMARY KEY(
