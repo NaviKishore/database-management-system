@@ -11,6 +11,6 @@ PRIMARY KEY(https://github.com/NaviKishore/database-management-system/blob/main/
 
 ## Experment 3
 INSERT(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20220920-WA0006.jpg)
-UPDATE(
+UPDATE( 
 DELETE(https://github.com/NaviKishore/database-management-system/blob/main/DML%20Command(Delete).txt)
 SELECT(
