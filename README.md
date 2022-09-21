@@ -21,4 +21,8 @@ Pattern Matching(https://github.com/NaviKishore/database-management-system/blob/
 
 ## Experiment 5
 BETWEEN IN(https://github.com/NaviKishore/database-management-system/blob/main/between%20and%20IN%20command.txt)
-Aggregate function(
+Aggregate function(https://github.com/NaviKishore/database-management-system/blob/main/aggregate%20command.txt)
+
+## Experiment 6
+GROUP BY(
+ORDER BY(
