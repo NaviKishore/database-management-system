@@ -10,6 +10,6 @@ DROP(https://github.com/NaviKishore/database-management-system/blob/main/DML%20d
 PRIMARY KEY(https://github.com/NaviKishore/database-management-system/blob/main/Screenshot%20(15).png)
 
 ## Experment 3
-INSERT(
+INSERT(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20220920-WA0006.jpg)
 UPDATE(
 DELETE(
