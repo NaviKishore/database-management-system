@@ -1,0 +1,18 @@
++------------+--------+----------+-------------+------------+-------+
+| 1234567894 | ramu   | 93928097 | semarabakam | kesavulu   |  NULL |
+|  143145146 | raju   | 82472299 | purunjur    | srinivas   |  NULL |
+|   15678234 | rakesh | 88976005 | chettiped   | vekatesan  |  NULL |
+| 1234567894 | ramu   | 93928097 | semarabakam | kesavulu   |  NULL |
+| 1234567894 | ramu   | 93928097 | semarabakam | kesavulu   |    80 |
+|   15678234 | rakesh | 88976005 | chettiped   | vekatesan  |    90 |
+|  143145146 | raju   | 82472299 | purunjur    | srinivas   |    75 |
++------------+--------+----------+-------------+------------+-------+
+7 rows in set (0.00 sec)
+
+mysql> select * from student where marks>(select avg(marks) from student);
++----------+--------+----------+-----------+------------+-------+
+| id       | name   | phno     | address   | fathername | marks |
++----------+--------+----------+-----------+------------+-------+
+| 15678234 | rakesh | 88976005 | chettiped | vekatesan  |    90 |
++----------+--------+----------+-----------+------------+-------+
+1 row in set (0.00 sec)
