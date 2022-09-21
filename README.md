@@ -7,4 +7,9 @@ ALTER(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20
 DROP(https://github.com/NaviKishore/database-management-system/blob/main/DML%20drop.txt)
 
 ## Experiment 2
-PRIMARY KEY(
+PRIMARY KEY(https://github.com/NaviKishore/database-management-system/blob/main/Screenshot%20(15).png)
+
+## Experment 3
+INSERT(
+UPDATE(
+DELETE(
