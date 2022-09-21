@@ -16,5 +16,5 @@ DELETE(https://github.com/NaviKishore/database-management-system/blob/main/DML%2
 SELECT(https://github.com/NaviKishore/database-management-system/blob/main/DML%20Command(Select).txt)
 
 ## Experiment 4
-WHERE(
+WHERE(https://github.com/NaviKishore/database-management-system/blob/main/dml%20where.txt)
 Pattern Matching(
