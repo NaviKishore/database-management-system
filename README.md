@@ -24,5 +24,5 @@ BETWEEN IN(https://github.com/NaviKishore/database-management-system/blob/main/b
 Aggregate function(https://github.com/NaviKishore/database-management-system/blob/main/aggregate%20command.txt)
 
 ## Experiment 6
-GROUP BY(
+GROUP BY(https://github.com/NaviKishore/database-management-system/blob/main/GROUP%20BY%20command.txt)
 ORDER BY(
