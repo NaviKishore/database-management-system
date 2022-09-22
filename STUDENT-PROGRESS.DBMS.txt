@@ -1,0 +1,64 @@
+mysql> create table student_progress(name char(10),id int(3),maths int(3),phy int(3),chem int(3),grade char(2));
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> desc student_progress;
++-------+----------+------+-----+---------+-------+
+| Field | Type     | Null | Key | Default | Extra |
++-------+----------+------+-----+---------+-------+
+| name  | char(10) | YES  |     | NULL    |       |
+| id    | int(3)   | YES  |     | NULL    |       |
+| maths | int(3)   | YES  |     | NULL    |       |
+| phy   | int(3)   | YES  |     | NULL    |       |
+| chem  | int(3)   | YES  |     | NULL    |       |
+| grade | char(2)  | YES  |     | NULL    |       |
++-------+----------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+mysql> alter table student_progress add total int(4);
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from student_progress;
+Empty set (0.01 sec)
+
+mysql> desc student_progrss;
+ERROR 1146 (42S02): Table 'varsha.student_progrss' doesn't exist
+mysql> desc student_progress;
++-------+----------+------+-----+---------+-------+
+| Field | Type     | Null | Key | Default | Extra |
++-------+----------+------+-----+---------+-------+
+| name  | char(10) | YES  |     | NULL    |       |
+| id    | int(3)   | YES  |     | NULL    |       |
+| maths | int(3)   | YES  |     | NULL    |       |
+| phy   | int(3)   | YES  |     | NULL    |       |
+| chem  | int(3)   | YES  |     | NULL    |       |
+| grade | char(2)  | YES  |     | NULL    |       |
+| total | int(4)   | YES  |     | NULL    |       |
++-------+----------+------+-----+---------+-------+
+7 rows in set (0.02 sec)
+
+mysql> insert into student_progress values ('sridhar','1','87','90','85','A','262'),('kishore','2','96','92','93','S','281'),('bhunesh','3','75','80','85','A','240');
+Query OK, 3 rows affected (0.00 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from student_progress;
++---------+------+-------+------+------+-------+-------+
+| name    | id   | maths | phy  | chem | grade | total |
++---------+------+-------+------+------+-------+-------+
+| sridhar |    1 |    87 |   90 |   85 | A     |   262 |
+| kishore |    2 |    96 |   92 |   93 | S     |   281 |
+| bhunesh |    3 |    75 |   80 |   85 | A     |   240 |
++---------+------+-------+------+------+-------+-------+
+3 rows in set (0.00 sec)
+
+mysql> delete from student_progress where total<'250';
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student_progress;
++---------+------+-------+------+------+-------+-------+
+| name    | id   | maths | phy  | chem | grade | total |
++---------+------+-------+------+------+-------+-------+
+| sridhar |    1 |    87 |   90 |   85 | A     |   262 |
+| kishore |    2 |    96 |   92 |   93 | S     |   281 |
++---------+------+-------+------+------+-------+-------+
+2 rows in set (0.00 sec)
