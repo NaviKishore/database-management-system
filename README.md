@@ -12,22 +12,29 @@ PRIMARY KEY(https://github.com/NaviKishore/database-management-system/blob/main/
 ## Experment 3
 INSERT(https://github.com/NaviKishore/database-management-system/blob/main/IMG-20220920-WA0006.jpg)
 UPDATE(https://github.com/NaviKishore/database-management-system/blob/main/DML%20Command(Update).txt)
+
+## Experiment 4
 DELETE(https://github.com/NaviKishore/database-management-system/blob/main/DML%20Command(Delete).txt)
 SELECT(https://github.com/NaviKishore/database-management-system/blob/main/DML%20Command(Select).txt)
 
-## Experiment 4
+## Experiment 5
 WHERE(https://github.com/NaviKishore/database-management-system/blob/main/dml%20where.txt)
 Pattern Matching(https://github.com/NaviKishore/database-management-system/blob/main/dml%20pattern%20matching.txt)
 
-## Experiment 5
+## Experiment 6
 BETWEEN IN(https://github.com/NaviKishore/database-management-system/blob/main/between%20and%20IN%20command.txt)
 Aggregate function(https://github.com/NaviKishore/database-management-system/blob/main/aggregate%20command.txt)
 
-## Experiment 6
+## Experiment 7
 GROUP BY(https://github.com/NaviKishore/database-management-system/blob/main/GROUP%20BY%20command.txt)
 ORDER BY(https://github.com/NaviKishore/database-management-system/blob/main/ORDER%20BY%20command.txt)
 
-## Experiment 7
+## Experiment 8
 SUB QUERIES 1(https://github.com/NaviKishore/database-management-system/blob/main/select%20and%20correlated%20query%201.txt)
 SUB QUERIES 2(https://github.com/NaviKishore/database-management-system/blob/main/select%20correlated%202.txt)
-SUB QUERIES 3( 
+SUB QUERIES 3(https://github.com/NaviKishore/database-management-system/blob/main/select%20correlated%203.txt)
+
+## Experiment 9
+INNER JOIN (
+LEFT OUTER JOIN(
+RIGHT OUTER JOIN(
