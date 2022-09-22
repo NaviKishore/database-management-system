@@ -54,7 +54,7 @@ LOOP(
 BOOK PUBLISHING COMPANY(https://github.com/NaviKishore/database-management-system/blob/main/book%20publishing%20company.dbms.txt)
 
 ## Experiment 23
-GENERAL HOSPIRAL(
+GENERAL HOSPIRAL(https://github.com/NaviKishore/database-management-system/blob/main/general%20hospital.txt)
 
 ## Experiment 24
 CAR RENTAL COMPANY(
