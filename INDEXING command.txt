@@ -1,0 +1,25 @@
+mysql> select * from details;
++------+----------------+-----------+---------------+
+| ids  | city           | phno      | qualification |
++------+----------------+-----------+---------------+
+|    1 | chambarabakkam | 989796959 | PHD           |
+|    2 | parunjur       | 939280971 | aerospace     |
+|    3 | poonamale      | 824722995 | PHD           |
+|    4 | ramapuram      | 889760056 | PHD           |
++------+----------------+-----------+---------------+
+4 rows in set (0.00 sec)
+
+mysql> show index from faculty;
+Empty set (0.00 sec)
+
+mysql> create index city on details(city);
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> show index from details;
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table   | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| details |          1 | city     |            1 | city        | A         |           4 |     NULL | NULL   | YES  | BTREE      |         |               |
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+1 row in set (0.00 sec)
