@@ -1,0 +1,33 @@
+
+mysql> select * from faculty;
++------+----------+-----------+------------+--------+------+
+| id   | name     | course    | department | salary | age  |
++------+----------+-----------+------------+--------+------+
+|    1 | devi     | AI        | CSE        |  18000 | NULL |
+|    2 | deepa    | data als  | CSE        |  20000 | NULL |
+|    3 | jullian  | placement | mech       |  25000 |   35 |
+|    4 | sriramya | c program | IT         |  20000 |   32 |
++------+----------+-----------+------------+--------+------+
+4 rows in set (0.00 sec)
+
+mysql> select * from details;
++------+----------------+-----------+---------------+
+| ids  | city           | phno      | qualification |
++------+----------------+-----------+---------------+
+|    1 | chambarabakkam | 989796959 | PHD           |
+|    2 | parunjur       | 939280971 | aerospace     |
+|    3 | poonamale      | 824722995 | PHD           |
+|    4 | ramapuram      | 889760056 | PHD           |
++------+----------------+-----------+---------------+
+4 rows in set (0.00 sec)
+
+mysql> select faculty.name,faculty.course,details.city,details.qualification from faculty inner join details on faculty.id=details.ids;
++----------+-----------+----------------+---------------+
+| name     | course    | city           | qualification |
++----------+-----------+----------------+---------------+
+| devi     | AI        | chambarabakkam | PHD           |
+| deepa    | data als  | parunjur       | aerospace     |
+| jullian  | placement | poonamale      | PHD           |
+| sriramya | c program | ramapuram      | PHD           |
++----------+-----------+----------------+---------------+
+4 rows in set (0.00 sec)
