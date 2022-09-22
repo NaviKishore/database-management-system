@@ -60,4 +60,4 @@ GENERAL HOSPIRAL(https://github.com/NaviKishore/database-management-system/blob/
 CAR RENTAL COMPANY(https://github.com/NaviKishore/database-management-system/blob/main/scenario%20car%20renal%20company.txt)
 
 ## Experiment 25
-STUDENT PROGRESS MONITORING SYSTEM(
+STUDENT PROGRESS MONITORING SYSTEM(https://github.com/NaviKishore/database-management-system/blob/main/STUDENT-PROGRESS.DBMS.txt)
