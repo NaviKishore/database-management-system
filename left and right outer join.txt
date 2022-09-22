@@ -1,0 +1,21 @@
+mysql> select faculty.name,faculty.course,details.city,details.qualification from faculty left outer join details on faculty.id=details.ids;
++----------+-----------+----------------+---------------+
+| name     | course    | city           | qualification |
++----------+-----------+----------------+---------------+
+| devi     | AI        | chambarabakkam | PHD           |
+| deepa    | data als  | parunjur       | aerospace     |
+| jullian  | placement | poonamale      | PHD           |
+| sriramya | c program | ramapuram      | PHD           |
++----------+-----------+----------------+---------------+
+4 rows in set (0.00 sec)
+
+mysql> select faculty.name,faculty.course,details.city,details.qualification from faculty right outer join details on faculty.id=details.ids;
++----------+-----------+----------------+---------------+
+| name     | course    | city           | qualification |
++----------+-----------+----------------+---------------+
+| devi     | AI        | chambarabakkam | PHD           |
+| deepa    | data als  | parunjur       | aerospace     |
+| jullian  | placement | poonamale      | PHD           |
+| sriramya | c program | ramapuram      | PHD           |
++----------+-----------+----------------+---------------+
+4 rows in set (0.00 sec)
