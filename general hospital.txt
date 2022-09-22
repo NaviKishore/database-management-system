@@ -1,0 +1,100 @@
+mysql> create table general_hospital(name char(30),city char(20),wards int(3),labs int(3),doctors int(4));
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> desc general_hospital;
++---------+----------+------+-----+---------+-------+
+| Field   | Type     | Null | Key | Default | Extra |
++---------+----------+------+-----+---------+-------+
+| name    | char(30) | YES  |     | NULL    |       |
+| city    | char(20) | YES  |     | NULL    |       |
+| wards   | int(3)   | YES  |     | NULL    |       |
+| labs    | int(3)   | YES  |     | NULL    |       |
+| doctors | int(4)   | YES  |     | NULL    |       |
++---------+----------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> insert into general_hosital values('aims','hyderabad','45','15','60'),('yashodha','vijayawada','50','10','80');
+ERROR 1146 (42S02): Table 'varsha.general_hosital' doesn't exist
+mysql> insert into general_hospital values('aims','hyderabad','45','15','60'),('yashodha','vijayawada','50','10','80');
+Query OK, 2 rows affected (0.00 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from general_hospital;
++----------+------------+-------+------+---------+
+| name     | city       | wards | labs | doctors |
++----------+------------+-------+------+---------+
+| aims     | hyderabad  |    45 |   15 |      60 |
+| yashodha | vijayawada |    50 |   10 |      80 |
++----------+------------+-------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> alter table general_hospital add patients int(3);
+Query OK, 2 rows affected (0.02 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from general_hospital;
++----------+------------+-------+------+---------+
+| name     | city       | wards | labs | doctors |
++----------+------------+-------+------+---------+
+| aims     | hyderabad  |    45 |   15 |      60 |
+| yashodha | vijayawada |    50 |   10 |      80 |
++----------+------------+-------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> alter table general_hospital add patients int(3);
+Query OK, 2 rows affected (0.02 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from general_hospital;
++----------+------------+-------+------+---------+----------+
+| name     | city       | wards | labs | doctors | patients |
++----------+------------+-------+------+---------+----------+
+| aims     | hyderabad  |    45 |   15 |      60 |     NULL |
+| yashodha | vijayawada |    50 |   10 |      80 |     NULL |
++----------+------------+-------+------+---------+----------+
+2 rows in set (0.00 sec)
+
+mysql> create table doctors(name char(30),id int(5),phno int(10),qlfn char(20));
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> desc doctors;
++-------+----------+------+-----+---------+-------+
+| Field | Type     | Null | Key | Default | Extra |
++-------+----------+------+-----+---------+-------+
+| name  | char(30) | YES  |     | NULL    |       |
+| id    | int(5)   | YES  |     | NULL    |       |
+| phno  | int(10)  | YES  |     | NULL    |       |
+| qlfn  | char(20) | YES  |     | NULL    |       |
++-------+----------+------+-----+---------+-------+
+4 rows in set (0.02 sec)
+
+mysql> insert into doctors values('ram','22','939289972','ent');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into doctors values('ram','22','939289972','ent'),('navi','21','889760056','surgeon'),('sridhar','18','824722995','heart');
+Query OK, 3 rows affected (0.00 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+mysql> select * from doctors;
++---------+------+-----------+---------+
+| name    | id   | phno      | qlfn    |
++---------+------+-----------+---------+
+| ram     |   22 | 939289972 | ent     |
+| ram     |   22 | 939289972 | ent     |
+| navi    |   21 | 889760056 | surgeon |
+| sridhar |   18 | 824722995 | heart   |
++---------+------+-----------+---------+
+4 rows in set (0.00 sec)
+
+mysql> delete from table where qlfn='ent';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table where qlfn='ent'' at line 1
+mysql> delete from doctors where qlfn='ent';
+Query OK, 2 rows affected (0.02 sec)
+
+mysql> select * from doctors;
++---------+------+-----------+---------+
+| name    | id   | phno      | qlfn    |
++---------+------+-----------+---------+
+| navi    |   21 | 889760056 | surgeon |
+| sridhar |   18 | 824722995 | heart   |
++---------+------+-----------+---------+
+2 rows in set (0.00 sec)
