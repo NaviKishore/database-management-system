@@ -39,6 +39,6 @@ INNER JOIN (https://github.com/NaviKishore/database-management-system/blob/main/
 LEFT AND RIGHT OUTER JOIN(https://github.com/NaviKishore/database-management-system/blob/main/left%20and%20right%20outer%20join.txt)
 
 ## Experiment 10
-VIEW (
+VIEW (https://github.com/NaviKishore/database-management-system/blob/main/VIEW%20command.txt)
 INDEX (
 SEQUENCE(
