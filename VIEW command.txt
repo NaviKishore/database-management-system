@@ -1,0 +1,13 @@
+mysql> create view faculty_view as select name,department and salary from faculty;
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> select * from faculty_view;
++----------+-----------------------+
+| name     | department and salary |
++----------+-----------------------+
+| devi     |                     0 |
+| deepa    |                     0 |
+| jullian  |                     0 |
+| sriramya |                     0 |
++----------+-----------------------+
+4 rows in set, 4 warnings (0.05 sec)
