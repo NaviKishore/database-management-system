@@ -28,6 +28,6 @@ GROUP BY(https://github.com/NaviKishore/database-management-system/blob/main/GRO
 ORDER BY(https://github.com/NaviKishore/database-management-system/blob/main/ORDER%20BY%20command.txt)
 
 ## Experiment 7
-SUB QUERIES 1(
+SUB QUERIES 1(https://github.com/NaviKishore/database-management-system/blob/main/select%20and%20correlated%20query%201.txt)
 SUB QUERIES 2(
 SUB QUERIES 3(
