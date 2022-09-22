@@ -57,7 +57,7 @@ BOOK PUBLISHING COMPANY(https://github.com/NaviKishore/database-management-syste
 GENERAL HOSPIRAL(https://github.com/NaviKishore/database-management-system/blob/main/general%20hospital.txt)
 
 ## Experiment 24
-CAR RENTAL COMPANY(
+CAR RENTAL COMPANY(https://github.com/NaviKishore/database-management-system/blob/main/scenario%20car%20renal%20company.txt)
 
 ## Experiment 25
 STUDENT PROGRESS MONITORING SYSTEM(
