@@ -36,7 +36,7 @@ SUB QUERIES 3(https://github.com/NaviKishore/database-management-system/blob/mai
 
 ## Experiment 9
 INNER JOIN (https://github.com/NaviKishore/database-management-system/blob/main/inner%20join%20command.txt)
-LEFT AND RIGHT OUTER JOIN(
+LEFT AND RIGHT OUTER JOIN(https://github.com/NaviKishore/database-management-system/blob/main/left%20and%20right%20outer%20join.txt)
 
 ## Experiment 10
 VIEW (
