@@ -35,6 +35,10 @@ SUB QUERIES 2(https://github.com/NaviKishore/database-management-system/blob/mai
 SUB QUERIES 3(https://github.com/NaviKishore/database-management-system/blob/main/select%20correlated%203.txt)
 
 ## Experiment 9
-INNER JOIN (
-LEFT OUTER JOIN(
-RIGHT OUTER JOIN(
+INNER JOIN (https://github.com/NaviKishore/database-management-system/blob/main/inner%20join%20command.txt)
+LEFT AND RIGHT OUTER JOIN(
+
+## Experiment 10
+VIEW (
+INDEX (
+SEQUENCE(
