@@ -30,4 +30,4 @@ ORDER BY(https://github.com/NaviKishore/database-management-system/blob/main/ORD
 ## Experiment 7
 SUB QUERIES 1(https://github.com/NaviKishore/database-management-system/blob/main/select%20and%20correlated%20query%201.txt)
 SUB QUERIES 2(
-SUB QUERIES 3(
+SUB QUERIES 3( 
