@@ -57,8 +57,6 @@ REPEAT(https://github.com/NaviKishore/database-management-system/blob/main/repea
 ## Experiment 18
 COMMIT,ROLLBACK(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands)
 
-## Experiment 19
-
 ## Experiment 20
   BASIC HRM(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2019.txt)
 
