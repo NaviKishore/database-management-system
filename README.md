@@ -56,9 +56,11 @@ COMMIT,ROLLBACK(https://github.com/NaviKishore/database-management-system/blob/m
 
 ## Experiment 19
 
+## Experiment 20
+  DEPARTMENT(
 
 ## Experiment 21
-EMPLOYEE(
+EMPLOYEE(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2021.txt)
 
 ## Experiment 22
 BOOK PUBLISHING COMPANY(https://github.com/NaviKishore/database-management-system/blob/main/book%20publishing%20company.dbms.txt)
