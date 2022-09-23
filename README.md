@@ -49,6 +49,9 @@ IF(
 ITERATE(
 LEAVE(
 LOOP(
+
+##Experiment 13
+COMMIT,ROLLBACK,SAVEPOINT(
 ## Experiment 21
 EMPLOYEE(
 
