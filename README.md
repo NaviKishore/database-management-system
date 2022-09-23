@@ -41,7 +41,9 @@ LEFT AND RIGHT OUTER JOIN(https://github.com/NaviKishore/database-management-sys
 ## Experiment 10
 VIEW (https://github.com/NaviKishore/database-management-system/blob/main/VIEW%20command.txt)
 INDEX (https://github.com/NaviKishore/database-management-system/blob/main/INDEXING%20command.txt)
-SEQUENCE(
+
+## Experiment 11
+CASE,IF(
 
 ## Experiment 13
 SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
