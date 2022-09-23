@@ -60,10 +60,10 @@ COMMIT,ROLLBACK(https://github.com/NaviKishore/database-management-system/blob/m
 ## Experiment 19
 
 ## Experiment 20
-  DEPARTMENT(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2019.txt)
+  BASIC HRM(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2019.txt)
 
 ## Experiment 21
-EMPLOYEE(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2021.txt)
+ADVANCE HRM(https://github.com/NaviKishore/database-management-system/blob/main/experiment%2021.txt)
 
 ## Experiment 22
 BOOK PUBLISHING COMPANY(https://github.com/NaviKishore/database-management-system/blob/main/book%20publishing%20company.dbms.txt)
