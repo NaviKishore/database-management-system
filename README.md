@@ -44,10 +44,13 @@ INDEX (https://github.com/NaviKishore/database-management-system/blob/main/INDEX
 SEQUENCE(
 
 ## Experiment 13
-COMMIT,ROLLBACK,SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
+SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
 
 ## Experiment 17
 REPEAT(https://github.com/NaviKishore/database-management-system/blob/main/repeat%20command.txt)
+
+## Experiment 18
+COMMIT,ROLLBACK(
 
 ## Experiment 21
 EMPLOYEE(
