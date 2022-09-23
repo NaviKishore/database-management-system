@@ -47,7 +47,7 @@ SEQUENCE(
 COMMIT,ROLLBACK,SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
 
 ## Experiment 17
-REPEAT(
+REPEAT(https://github.com/NaviKishore/database-management-system/blob/main/repeat%20command.txt)
 
 ## Experiment 21
 EMPLOYEE(
