@@ -1,0 +1,31 @@
+mysql> select * from customers;
+ERROR 1146 (42S02): Table 'varsha.customers' doesn't exist
+mysql> select * from customer;
++------+----------+------------+------------+
+| id   | name     | address    | city       |
++------+----------+------------+------------+
+|   44 | sridhar  | lb nagar   | hyd        |
+|   35 | praneeth | anna nagar | shabad     |
+|   55 | udhay    | chennai    | tamil nadu |
++------+----------+------------+------------+
+3 rows in set (0.00 sec)
+
+mysql> delimiter //
+mysql> create procedure p_cust()
+    -> begin
+    -> select id,name
+    -> from customer
+    -> where city='shabad' ;
+    -> end //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> delimiter ;
+mysql> call p_cust();
++------+----------+
+| id   | name     |
++------+----------+
+|   35 | praneeth |
++------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
