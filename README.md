@@ -52,7 +52,7 @@ SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Ex
 GRANT,REVOKE(https://github.com/NaviKishore/database-management-system/blob/main/manoj14.txt)
 
 ## EXPERIMENT 15
-PROCEDURES(
+PROCEDURES(https://github.com/NaviKishore/database-management-system/blob/main/PROCEDURES.txt)
 
 ## Experiment 17
 REPEAT(https://github.com/NaviKishore/database-management-system/blob/main/repeat%20command.txt)
