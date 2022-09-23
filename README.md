@@ -48,6 +48,9 @@ CASE,IF(https://github.com/NaviKishore/database-management-system/blob/main/expe
 ## Experiment 13
 SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
 
+## Experiment 14
+GRANT,REVOKE(
+
 ## Experiment 17
 REPEAT(https://github.com/NaviKishore/database-management-system/blob/main/repeat%20command.txt)
 
