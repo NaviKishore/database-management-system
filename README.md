@@ -43,15 +43,11 @@ VIEW (https://github.com/NaviKishore/database-management-system/blob/main/VIEW%2
 INDEX (https://github.com/NaviKishore/database-management-system/blob/main/INDEXING%20command.txt)
 SEQUENCE(
 
-## Experiment 11
-CASE(
-IF(
-ITERATE(
-LEAVE(
-LOOP(
-
-##Experiment 13
+## Experiment 13
 COMMIT,ROLLBACK,SAVEPOINT(https://github.com/NaviKishore/database-management-system/blob/main/Experiment%2013(TCL%20Commands).txt)
+
+## Experiment 17
+REPEAT(
 
 ## Experiment 21
 EMPLOYEE(
